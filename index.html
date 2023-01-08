@@ -1,11 +1,11 @@
 <!--
 文件名：outs.html
-版本号：0.0.1 开发版
+版本号：0.0.2 开发版
 编写者：KSK
 最后更新日期：2023.1.8
 ================================================
 File name: outs.html
-Version: 0.0.1 Build
+Version: 0.0.2 Build
 Editor: KSK
 Latest update date: 1.8.2023
 -->
@@ -41,19 +41,15 @@ Latest update date: 1.8.2023
     <body>
         <!--未启用js提示-->
         <noscript><p class="noscript">本页面需要启用JavaScript！</p></noscript>
-        <!--白框-->
-        <!-- <center><h4><br></h6><p class="background"></p></center> -->
         
         <!-- 以下内容为正文 -->
-        <script type="text/javascript">
+        <!-- <script type="text/javascript">
             var bodyWidth=document.documentElement.clientWidth;
             var bodyHeight=document.documentElement.clientHeight;
             // alert(bodyHeight);//测试用的
-        </script>
+        </script> -->
 
-        
-
-        <center><iframe src="abc.html" id="mainIframe" frameborder="0" width="90%" height="800"></iframe></center>
+        <center><iframe src="abc.html" id="mainIframe" frameborder="0" width="90%" onload="this.height=document.documentElement.clientHeight*0.98"></iframe></center>
 
     </body>
 </html>
